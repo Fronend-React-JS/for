@@ -138,6 +138,19 @@
 
 // for 7-masala
 
+// let a = prompt("a ni kiriting:");
+// let b = prompt("b ni kiriting:");
+
+// a = a*1;
+// b = b*1;
+// sum = 0;
+// for (let i = a; i <= b; i++) {
+//     if(a >= 0 && b >= 0) {
+//         sum += i
+//     } 
+// }
+// console.log("Natija " + " " + sum);
+
 // for 8- masala
 
 // let a = prompt("a ni kiriting")
@@ -150,3 +163,18 @@
 // }
 
 // console.log(sum);
+
+// for 9-masala
+
+let a = prompt("a ni kiriting");
+let b = prompt("b ni kiriting")
+
+kv = 1;
+sum = 0;
+
+for (let i = a; i <= b; i++) {
+    kv = i ** 2;
+    sum += kv;
+    console.log(kv);
+}
+console.log(sum);
